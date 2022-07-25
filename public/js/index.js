@@ -83,12 +83,4 @@ rightBtn.addEventListener('click', () => {
   showTeam()
 })
 
-const myObj = {
-  nameObj: 'Sample Object',
-  ageObj: 25,
-  goodObj: true,
-  arrObj: [1, 2, 3]
-}
 
-const { nameObj, ageObj } = myObj
-console.log(nameObj, ageObj)
